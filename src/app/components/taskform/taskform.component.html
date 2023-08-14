@@ -1,0 +1,10 @@
+<div class="main-form">
+        <form (submit)="addTask(newTask, $event)">
+            <div class="input-group">
+                <input type="text" placeholder="Task" class="form-control" #newTask>
+                <button class="btn btn-primary form-control add-btn">
+                   <span>Add</span>
+                </button>
+            </div>
+        </form>
+</div>
