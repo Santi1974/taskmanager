@@ -39,4 +39,10 @@ export class TaskService {
         }
       }
     }
+
+    editTitle(task: Task, newTitle: string) {
+      task.title = newTitle;
+      localStorage.setItem('tasks', JSON.stringify(this.tasks));
+    }
+
 }

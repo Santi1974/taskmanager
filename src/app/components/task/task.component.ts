@@ -17,4 +17,11 @@ export class TaskComponent {
       this.taskService.deleteTask(task);
     }
   }
+  editTitle(task: Task) {
+    const newTitle = prompt('Edit task: ', task.title);
+    if (newTitle !== null && newTitle.trim() !== '') {
+      this.taskService.editTitle(task, newTitle);
+    }
+  }
+  
 }

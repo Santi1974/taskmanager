@@ -16,6 +16,24 @@
     color: #808080;
     word-break: break-all;
 }
+.buttons{
+    margin: 0 10px;
+}
+.edit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #770058;
+    color: #f5f5f5;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 3px 5px;
+    transition: all 200ms;
+    &:hover{
+        transform: translateY(-2.5px);
+    }
+}
 .delete-btn{
     display: flex;
     align-items: center;
@@ -25,15 +43,12 @@
     cursor: pointer;
     padding: 5px;
     border-radius: 6px;
+    margin: 3px 5px;
     transition: all 200ms;
     &:hover{
         transform: translateY(-2.5px);
     }
 }
-.delete-btn:hover + .task {
-    text-decoration: line-through;
-}
-
 @media (max-width: 1200px) {
     .task-container{
         width: 65vw;
@@ -56,4 +71,8 @@
     .task{
         font-size: 0.9rem;
     }
+    .buttons{
+        width: 17%;
+    }
 }
+

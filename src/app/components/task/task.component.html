@@ -2,8 +2,13 @@
     <div class="task">
         {{task.title}}
     </div>
-    <div class="delete-btn" (click)="deleteTask(task)">
-        <mat-icon class="bin">delete</mat-icon>
+    <div class="buttons row">
+        <div class="edit-btn col-sm" (click)="editTitle(task)">
+            <mat-icon class="bin">edit</mat-icon>
+        </div>
+        <div class="delete-btn col-sm" (click)="deleteTask(task)">
+            <mat-icon class="bin">delete</mat-icon>
+        </div>
     </div>
 </div>
     

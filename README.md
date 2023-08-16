@@ -1,6 +1,6 @@
 # ✍ToDo List / Task Manager
 ***
-Simple ToDo list app for creating and deleting tasks, using Local Storage.
+Simple CRUD app, using Local Storage.
 
 ##### Made with:
 -HTML
