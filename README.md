@@ -1,6 +1,7 @@
 # ✍ToDo List / Task Manager
 ***
-Simple CRUD app, using Local Storage.
+CRUD app, using Local Storage.  
+Create, Read, Update and Delete.
 
 ##### Made with:
 -HTML
